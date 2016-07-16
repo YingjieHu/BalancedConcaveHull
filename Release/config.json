@@ -1,0 +1,27 @@
+{
+     # Path parameters ----------------------
+     inputPath:"Input",         # path of the input folder; each input file is a csv; the format of the input files can be seen from the example
+     outputPath:"Output",   # path of the output folder  
+     # Path parameters finish -------------
+     
+     
+     # Attribute indexes -------------------
+     xIndex:0,               # the column number of the x  coordinate values 
+     yIndex:1,               # the column number of the y coordinate values 
+     labelIndex:2,        # the column number of the data group labels
+     # Attribute parameters finish ----------
+     
+
+     # concave hull parameter ------------------
+     automated:true,    # whether you want to use the automated process to find a suitable lambda (based on a balance of complexity and emptiness)
+     lambda: 50,             # a parameter for the concave hull, ranging from 1 to 100. If automated is false, this parameter must be specified. Otherwise, this parameter is not used.
+     # concave hull parameter finishes -------
+     
+     
+     # projection parameter --------------------
+     # this parameter specifies the spatial reference of the output. If the reference is WGS84, then leave it as empty; To get the JSON format of a spatial reference, save a Esri shapefile into EsriJSON. Then, use a text editing tool to open the JSON file, and find the attribute of "spatialReference" 
+     spatialReference:  "{\"wkid\":3490,\"latestWkid\":3490}"
+     # for WGS84 use: spatialReference:""
+     # projection parameter finished --------   
+    
+}
