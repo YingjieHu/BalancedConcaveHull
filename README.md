@@ -8,10 +8,10 @@ Constructing concave hulls using point locations with balanced emptiness and com
 
 ### Overall description 
 Many GIS applications need constructing concave hulls from point locations. Depending on the different normalized length parameters (i.e., lambdas), different concave hulls can be constructed from the same group of points. This program aims at finding the best lambda value and constructing a concave hull with a balanced complexity and emptiness. This program can achieve the following effect:
-![Balanced Concave Hull](http://gsdaone.geog.utk.edu/urbanAOIs/fig/lambdaPolygonSmall.jpg)
+![Balanced Concave Hull](https://github.com/YingjieHu/BalancedConcaveHull/blob/master/fig/lambdaPolygonSmall.jpg)
 
 Meanwhile, the relation between the lambda and the balance value can be visualized as a figure (similar to the following) to help us acquire an intuitive understanding of the concave hulls:
-![Balanced Concave Hull](http://gsdaone.geog.utk.edu/urbanAOIs/fig/lambdaCurveSmall.jpg)
+![Balanced Concave Hull](https://github.com/YingjieHu/BalancedConcaveHull/blob/master/fig/lambdaCurveSmall.jpg)
 
 The idea of achieving the balance between complexity and emptiness is from:
   Akdag, F., Eick, C. F., & Chen, G. (2014, June). Creating polygon models for spatial clusters. In   International Symposium on Methodologies for Intelligent Systems (pp. 493-499). Springer International   Publishing. 
